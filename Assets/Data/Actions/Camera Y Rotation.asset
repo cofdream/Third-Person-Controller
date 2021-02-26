@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Camera Y Rotation
   m_EditorClassIdentifier: 
   targetFloat: {fileID: 11400000, guid: b48363d76be32b24b9a99be12e7b1dea, type: 2}
-  targetVariable: {fileID: 0}
+  targetVariable: {fileID: 11400000, guid: df4d97e3ab9607643b3ec65715b88665, type: 2}
   angle: 0
   speed: 9
   negative: 0

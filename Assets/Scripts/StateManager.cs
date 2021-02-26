@@ -34,5 +34,14 @@ namespace SA
                 currentState.Tick(this);
             }
         }
+        private void FixedUpdate()
+        {
+            delta = Time.deltaTime;
+
+            if (currentState != null)
+            {
+                currentState.FixedTick(this);
+            }
+        }
     }
 }

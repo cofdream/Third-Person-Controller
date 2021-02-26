@@ -20,7 +20,7 @@ MonoBehaviour:
       x: 59.799988
       y: 134.00005
       width: 200
-      height: 290
+      height: 330
     windowTitle: State
     enterNode: 0
     targetNode: 0
@@ -34,8 +34,8 @@ MonoBehaviour:
     showEnterExit: 0
     previousCollapse: 0
     stateRef:
-      currentState: {fileID: 11400000, guid: 3cb2311cf9b6fcc488a0a7b62dc1b7c3, type: 2}
-      previousState: {fileID: 11400000, guid: 3cb2311cf9b6fcc488a0a7b62dc1b7c3, type: 2}
+      currentState: {fileID: 11400000, guid: fa444fdc218edb14b89d5662b84aa39d, type: 2}
+      previousState: {fileID: 11400000, guid: fa444fdc218edb14b89d5662b84aa39d, type: 2}
     transRef:
       previousCondition: {fileID: 0}
       transitionId: 0
