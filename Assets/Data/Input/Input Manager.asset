@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontal: {fileID: 11400000, guid: 263978fc6b83b0a45819836a12881bea, type: 2}
   vertical: {fileID: 11400000, guid: f5e84bc64601dfb4ea0ca145ac317770, type: 2}
+  jump: {fileID: 11400000, guid: 587df7181b3aa054d9407ecf26e836a6, type: 2}
   playerStates: {fileID: 11400000, guid: 6d809620b6faf0c4eb48e49c915ff1af, type: 2}
   inputUpdateBatch: {fileID: 11400000, guid: 0bd9490601acabb4ea3251715f5613b3, type: 2}

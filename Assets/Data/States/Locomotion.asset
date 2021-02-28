@@ -16,8 +16,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 058bcebf81ce48c4bad8f260153637c8, type: 2}
   - {fileID: 11400000, guid: 62d569ab06f5cdd45948fbce450fff77, type: 2}
   onUpdate:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 42f5c0dad501e384b972c0dc2c3abe38, type: 2}
   onEnter: []
   onExit: []
-  idCount: 2
-  transitions: []
+  idCount: 3
+  transitions:
+  - id: 2
+    condition: {fileID: 11400000, guid: 77ed047ed59614f428cea0ffd55f1d1f, type: 2}
+    targetState: {fileID: 11400000, guid: d52eadca817dc0c479f20ec49470da59, type: 2}
+    disable: 0

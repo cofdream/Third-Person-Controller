@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace SA
 {
-    [CreateAssetMenu(menuName = "Variable/State Manager")]
+    [CreateAssetMenu(menuName = "Variables/State Manager")]
     public class StateManagerVariable : ScriptableObject
     {
         public StateManager value;

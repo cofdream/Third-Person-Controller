@@ -18,11 +18,21 @@ namespace SA
         public Transform mTransform;
         [HideInInspector]
         public new Rigidbody rigidbody;
+        [HideInInspector]
+        public Animator animator;
 
+        public AnimatorHashes hashes;
+        public AnimatorData animatorData;
+
+        public bool isJumping;
+        public bool isGround;
         private void Start()
         {
             mTransform = this.transform;
             rigidbody = GetComponent<Rigidbody>();
+            animator = GetComponent<Animator>();
+            hashes = new AnimatorHashes();
+            animatorData = new AnimatorData(animator);
         }
 
         private void Update()

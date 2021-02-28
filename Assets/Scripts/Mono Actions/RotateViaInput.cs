@@ -34,13 +34,13 @@ namespace SA
             switch (targetAxis)
             {
                 case RotateAxis.x:
-                    targetVariable.value.rotation = Quaternion.Euler(angle, 0, 0);
+                    targetVariable.value.localRotation = Quaternion.Euler(angle, 0, 0);
                     break;
                 case RotateAxis.y:
-                    targetVariable.value.rotation = Quaternion.Euler(0, angle, 0);
+                    targetVariable.value.localRotation = Quaternion.Euler(0, angle, 0);
                     break;
                 case RotateAxis.z:
-                    targetVariable.value.rotation = Quaternion.Euler(0, 0, angle);
+                    targetVariable.value.localRotation = Quaternion.Euler(0, 0, angle);
                     break;
             }
         }

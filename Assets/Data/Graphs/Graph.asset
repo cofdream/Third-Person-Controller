@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Graph
   m_EditorClassIdentifier: 
   windows:
-  - id: 0
+  - id: 7
     drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
     windowRect:
       serializedVersion: 2
-      x: 59.799988
-      y: 134.00005
+      x: 33
+      y: 108
       width: 200
-      height: 330
+      height: 350
     windowTitle: State
     enterNode: 0
     targetNode: 0
@@ -39,20 +39,20 @@ MonoBehaviour:
     transRef:
       previousCondition: {fileID: 0}
       transitionId: 0
-  - id: 1
+  - id: 8
     drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
     windowRect:
       serializedVersion: 2
-      x: 316.8
-      y: 107.000046
+      x: 305
+      y: 143
       width: 200
       height: 100
     windowTitle: Condition
-    enterNode: 0
-    targetNode: 0
+    enterNode: 7
+    targetNode: 9
     isDuplicate: 0
     comment: 
-    isAssigned: 0
+    isAssigned: 1
     showDescription: 0
     isOnCurrent: 0
     collapse: 0
@@ -63,6 +63,32 @@ MonoBehaviour:
       currentState: {fileID: 0}
       previousState: {fileID: 0}
     transRef:
+      previousCondition: {fileID: 11400000, guid: 77ed047ed59614f428cea0ffd55f1d1f, type: 2}
+      transitionId: 2
+  - id: 9
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 559
+      y: 118
+      width: 200
+      height: 290
+    windowTitle: State
+    enterNode: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    showDescription: 0
+    isOnCurrent: 0
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      currentState: {fileID: 11400000, guid: d52eadca817dc0c479f20ec49470da59, type: 2}
+      previousState: {fileID: 11400000, guid: d52eadca817dc0c479f20ec49470da59, type: 2}
+    transRef:
       previousCondition: {fileID: 0}
-      transitionId: 8
-  idCount: 2
+      transitionId: 0
+  idCount: 10
