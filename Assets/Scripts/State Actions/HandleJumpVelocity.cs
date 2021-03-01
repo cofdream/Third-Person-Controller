@@ -19,12 +19,12 @@ namespace SA
             
             if (states.movementVariables.moveAmount > 0.1f)
             {
-                states.animator.CrossFade(states.hashes.jumpForward, 0.2f);
+                states.animator.CrossFade(states.hashes.JumpForward, 0.2f);
                 currentVelocity += jumpSpeed * Vector3.up;
             }
             else
             {
-                states.animator.CrossFade(states.hashes.jumpIdle, 0.2f);
+                states.animator.CrossFade(states.hashes.JumpIdle, 0.2f);
                 currentVelocity += idleJumpSpeed * Vector3.up;
             }
 

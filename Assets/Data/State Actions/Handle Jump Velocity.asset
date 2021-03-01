@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c079ad53ab9d9d24eb5ca79ee0dba077, type: 3}
   m_Name: Handle Jump Velocity
   m_EditorClassIdentifier: 
-  jumpSpeed: 4
+  jumpSpeed: 8
   idleJumpSpeed: 2
-  jumpAnimation: {fileID: 0}
