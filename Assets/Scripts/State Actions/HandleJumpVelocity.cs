@@ -14,6 +14,9 @@ namespace SA
             states.rigidbody.drag = 0;
 
             Vector3 currentVelocity = states.rigidbody.velocity;
+            states.timeSinceJump = Time.realtimeSinceStartup;
+            states.isGrounded = false;
+            
             if (states.movementVariables.moveAmount > 0.1f)
             {
                 states.animator.CrossFade(states.hashes.jumpForward, 0.2f);
@@ -24,6 +27,7 @@ namespace SA
                 states.animator.CrossFade(states.hashes.jumpIdle, 0.2f);
                 currentVelocity += idleJumpSpeed * Vector3.up;
             }
+
             states.rigidbody.velocity = currentVelocity;
         }
     }

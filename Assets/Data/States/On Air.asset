@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: On Air
   m_EditorClassIdentifier: 
   onFixed: []
-  onUpdate: []
+  onUpdate:
+  - {fileID: 11400000, guid: 71b46c0b885a87a4e82d96a2f7cf5ac1, type: 2}
   onEnter: []
   onExit: []
-  idCount: 2
-  transitions: []
+  idCount: 3
+  transitions:
+  - id: 2
+    condition: {fileID: 11400000, guid: 280b25fd21db1804d8c73a89e4b42735, type: 2}
+    targetState: {fileID: 11400000, guid: fa444fdc218edb14b89d5662b84aa39d, type: 2}
+    disable: 0

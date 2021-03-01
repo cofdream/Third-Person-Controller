@@ -17,13 +17,14 @@ namespace SA
 
             if (Physics.Raycast(origin, direction, out RaycastHit hit, distance))
             {
-                states.isGround = true;
+                states.isGrounded = true;
             }
             else
             {
-                states.isGround = false;
+                states.isGrounded = false;
             }
+
+            states.animator.SetBool(states.hashes.isGrounded, states.isGrounded);
         }
     }
-
 }

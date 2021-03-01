@@ -11,6 +11,7 @@ namespace SA
         public int leftFootForward = Animator.StringToHash("leftFootForward");
         public int jumpForward = Animator.StringToHash("Jump Forward");
         public int jumpIdle = Animator.StringToHash("Jump Idle");
+        public int isGrounded = Animator.StringToHash("isGround");
     }
 
 }

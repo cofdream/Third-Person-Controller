@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 058bcebf81ce48c4bad8f260153637c8, type: 2}
   - {fileID: 11400000, guid: 62d569ab06f5cdd45948fbce450fff77, type: 2}
   onUpdate:
+  - {fileID: 11400000, guid: 71b46c0b885a87a4e82d96a2f7cf5ac1, type: 2}
   - {fileID: 11400000, guid: 42f5c0dad501e384b972c0dc2c3abe38, type: 2}
   onEnter: []
   onExit: []

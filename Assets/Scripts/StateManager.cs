@@ -25,7 +25,11 @@ namespace SA
         public AnimatorData animatorData;
 
         public bool isJumping;
-        public bool isGround;
+        public bool isGrounded;
+
+        [HideInInspector]
+        public float timeSinceJump;
+
         private void Start()
         {
             mTransform = this.transform;
