@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e09f12a9b8fb5e44eb81fa499afbecc4, type: 3}
+  m_Name: WaitForAnimation
+  m_EditorClassIdentifier: 
+  onFixed:
+  - {fileID: 11400000, guid: 284e4360237091c409c3c3560afc0f6d, type: 2}
+  onUpdate: []
+  onEnter:
+  - {fileID: 11400000, guid: 687a1dba5605e9a488e566b546709af5, type: 2}
+  onExit:
+  - {fileID: 11400000, guid: e07bcdfe955aa4f468d8522f41cfd245, type: 2}
+  idCount: 1
+  transitions:
+  - id: 0
+    condition: {fileID: 11400000, guid: d9e5df83a6e7bd24390fa0335bc4c91b, type: 2}
+    targetState: {fileID: 11400000, guid: fa444fdc218edb14b89d5662b84aa39d, type: 2}
+    disable: 0
