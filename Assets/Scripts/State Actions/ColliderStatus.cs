@@ -9,7 +9,7 @@ namespace SA
         public bool status;
         public override void Execute(StateManager states)
         {
-            states.collider.enabled = status;
+            states.GetComponent<Collider>().enabled = status;
         }
     }
 }

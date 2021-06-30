@@ -24,6 +24,9 @@ namespace SA
         public AnimatorHashes hashes;
         public AnimatorData animatorData;
 
+        public bool isVaulting;
+        public VaultData vaultData;
+
         public bool isJumping;
         public bool isGrounded;
 
